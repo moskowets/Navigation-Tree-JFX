@@ -1,0 +1,15 @@
+.not-valid-field {
+    -fx-border-color: red;
+}
+
+.label {
+    -fx-font-size: 16;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+}
+
+#menuPanel {
+    -fx-font-size: 20;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold;
+}
