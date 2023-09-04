@@ -11,11 +11,12 @@ import java.util.ResourceBundle;
 
 import static eu.mktcode.navigationtreejfx.NavigationTreeBundleKeys.STAGE_TITLE_KEY;
 
+
 public class NavigationTreeApplication extends Application {
 
     private static final String NAVIGATION_TREE_VIEW_FXML = "navigation-tree-view.fxml";
     private static final String NAVIGATION_TREE_VIEW_STYLE_SHEET = "navigation-tree-view.css";
-    private static final String NAVIGATION_TREE_VIEW_RESOURCE_BUNDLE = "eu.mktcode.navigationtreejfx.controller.navigation-tree-view";
+    private static final String NAVIGATION_TREE_VIEW_RESOURCE_BUNDLE = "eu.mktcode.navigationtreejfx.view.navigation-tree-view";
 
     @Override
     public void start(Stage stage) throws IOException {
