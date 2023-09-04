@@ -1,7 +1,13 @@
-package eu.mktcode.navigationtreejfx.model.exception;
+package eu.mktcode.navigationtreejfx.model.service.exception;
 
 import java.util.ResourceBundle;
 
+/**
+ * Exception class for ResultGenerator service.
+ * Exception description are stored in resource bundle and will be loaded using lazy initialization.
+ *
+ * @author Pavlo Moskovets
+ */
 public class ResultGenerationException extends RuntimeException {
 
     private static ResourceBundle resourceBundle;

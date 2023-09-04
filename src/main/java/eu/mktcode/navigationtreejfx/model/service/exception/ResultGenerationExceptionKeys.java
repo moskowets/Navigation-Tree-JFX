@@ -1,7 +1,12 @@
-package eu.mktcode.navigationtreejfx.model.exception;
+package eu.mktcode.navigationtreejfx.model.service.exception;
 
 import java.util.ResourceBundle;
 
+/**
+ * Enum where are stored the keys for ResultGenerationException resource bundle.
+ *
+ * @author Pavlo Moskovets
+ */
 public enum ResultGenerationExceptionKeys {
 
     RESOURCE_BUNDLE_NULL("resourceBundleNullText"),

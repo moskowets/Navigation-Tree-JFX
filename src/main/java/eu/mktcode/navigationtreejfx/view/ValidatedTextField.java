@@ -5,6 +5,11 @@ import javafx.scene.control.TextField;
 
 import java.util.regex.Pattern;
 
+/**
+ * Extended with validation TextField class
+ *
+ * @author Pavlo Moskovets
+ */
 public class ValidatedTextField extends TextField implements Validatable<String> {
 
     private Pattern textRegexp;

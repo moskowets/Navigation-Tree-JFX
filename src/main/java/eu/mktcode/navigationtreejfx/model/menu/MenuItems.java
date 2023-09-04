@@ -2,6 +2,11 @@ package eu.mktcode.navigationtreejfx.model.menu;
 
 import java.util.Objects;
 
+/**
+ * Class used for storing menu items names.
+ *
+ * @author Pavlo Moskovets
+ */
 public class MenuItems {
 
     private String dataInputMenu;

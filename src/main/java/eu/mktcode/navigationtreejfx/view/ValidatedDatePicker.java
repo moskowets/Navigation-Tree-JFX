@@ -6,6 +6,11 @@ import javafx.scene.control.DatePicker;
 import java.time.LocalDate;
 import java.util.function.BiPredicate;
 
+/**
+ * Extended with validation DatePicker class
+ *
+ * @author Pavlo Moskovets
+ */
 public class ValidatedDatePicker extends DatePicker implements Validatable<LocalDate> {
 
     private boolean isLastValueValid = false;

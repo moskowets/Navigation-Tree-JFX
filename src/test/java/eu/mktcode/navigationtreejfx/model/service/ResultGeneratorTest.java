@@ -1,6 +1,6 @@
 package eu.mktcode.navigationtreejfx.model.service;
 
-import eu.mktcode.navigationtreejfx.model.exception.ResultGenerationException;
+import eu.mktcode.navigationtreejfx.model.service.exception.ResultGenerationException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;

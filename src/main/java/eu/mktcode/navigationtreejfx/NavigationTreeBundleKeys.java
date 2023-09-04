@@ -2,6 +2,11 @@ package eu.mktcode.navigationtreejfx;
 
 import java.util.ResourceBundle;
 
+/**
+ * Enum where are stored the keys for NavigationTreeApplication resource bundle.
+ *
+ * @author Pavlo Moskovets
+ */
 public enum NavigationTreeBundleKeys {
     STAGE_TITLE_KEY("stageTitle"),
     MENU_ITEMS_NAMES_KEY("menuItemsNames"),

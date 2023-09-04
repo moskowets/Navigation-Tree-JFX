@@ -11,7 +11,11 @@ import java.util.ResourceBundle;
 
 import static eu.mktcode.navigationtreejfx.NavigationTreeBundleKeys.STAGE_TITLE_KEY;
 
-
+/**
+ * Entry point of the application
+ *
+ * @author Pavlo Moskovets
+ */
 public class NavigationTreeApplication extends Application {
 
     private static final String NAVIGATION_TREE_VIEW_FXML = "navigation-tree-view.fxml";

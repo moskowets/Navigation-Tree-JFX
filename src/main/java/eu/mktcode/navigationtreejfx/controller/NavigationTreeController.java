@@ -26,6 +26,11 @@ import java.util.regex.Pattern;
 
 import static eu.mktcode.navigationtreejfx.NavigationTreeBundleKeys.*;
 
+/**
+ * Controller class for the navigation-tree-view.fxml view
+ *
+ * @author Pavlo Moskovets
+ */
 public class NavigationTreeController implements Initializable {
 
     @FXML
@@ -52,6 +57,12 @@ public class NavigationTreeController implements Initializable {
     private final ResultGenerator resultGenerator = new ResultGenerator();
     private final Logger logger = LoggerFactory.getLogger(ResultGenerator.class);
 
+    /**
+     * Initialize function that is called automatically.
+     *
+     * @param url
+     * @param resourceBundle is defined and set in Application class
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         readParameters(resourceBundle);
