@@ -1,8 +1,8 @@
 package eu.mktcode.navigationtreejfx.controller;
 
 import eu.mktcode.navigationtreejfx.common.DateFormatter;
-import eu.mktcode.navigationtreejfx.model.MenuItems;
-import eu.mktcode.navigationtreejfx.model.ResultGenerator;
+import eu.mktcode.navigationtreejfx.model.menu.MenuItems;
+import eu.mktcode.navigationtreejfx.model.service.ResultGenerator;
 import eu.mktcode.navigationtreejfx.view.ValidatedDatePicker;
 import eu.mktcode.navigationtreejfx.view.ValidatedTextField;
 import javafx.fxml.FXML;

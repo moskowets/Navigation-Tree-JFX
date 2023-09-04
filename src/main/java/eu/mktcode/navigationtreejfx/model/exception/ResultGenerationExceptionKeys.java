@@ -1,4 +1,4 @@
-package eu.mktcode.navigationtreejfx.model;
+package eu.mktcode.navigationtreejfx.model.exception;
 
 import java.util.ResourceBundle;
 

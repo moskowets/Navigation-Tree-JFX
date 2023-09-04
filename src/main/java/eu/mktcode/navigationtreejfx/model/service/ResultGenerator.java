@@ -1,6 +1,7 @@
-package eu.mktcode.navigationtreejfx.model;
+package eu.mktcode.navigationtreejfx.model.service;
 
 import eu.mktcode.navigationtreejfx.common.DateFormatter;
+import eu.mktcode.navigationtreejfx.model.exception.ResultGenerationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -9,7 +10,7 @@ import java.util.ResourceBundle;
 
 import static eu.mktcode.navigationtreejfx.NavigationTreeBundleKeys.RESULT_TEXT_FORMAT_KEY;
 import static eu.mktcode.navigationtreejfx.NavigationTreeBundleKeys.RESULT_TEXT_FOR_WRONG_INPUT_DATA_KEY;
-import static eu.mktcode.navigationtreejfx.model.ResultGenerationExceptionKeys.*;
+import static eu.mktcode.navigationtreejfx.model.exception.ResultGenerationExceptionKeys.*;
 
 public class ResultGenerator {
 

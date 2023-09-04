@@ -1,4 +1,4 @@
-package eu.mktcode.navigationtreejfx.model;
+package eu.mktcode.navigationtreejfx.model.menu;
 
 import java.util.Objects;
 
