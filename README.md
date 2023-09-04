@@ -12,7 +12,7 @@ Die Aufgabe bitte als Maven Projekt implementieren. Um sich mit Maven selbst nic
 Daher empfehlen wir JDK 11 oder JDK 17 zu verwenden.
 
 ## Beschreibung
-Genau wie beschrieben, ist die Anwendung in zwei Seiten aufgeteilt. Erste schlägt vor, einen Namen und ein Geburtsdatum einzutragen, die andere zeigt den Glückwunschtext. Zusätzlich wurde bei der Eingabe eine Validierung implementiert, wenn die Anforderungen nicht erfüllt werden, dann wird der Rahmen von Eingabefeld rot und auf der zweiten Seite wird auch kein Ergebnis angezeigt. Genaue Anforderungen findet man im Tooltip. Die Anwendung ist dreisprachig (Englisch, Deutsch, Ukrainisch), dafür wurden entsprechende Resource bundels erstellt (um eine konkrete Sprache zu testen, nutzen Sie bitte VM-Optionen, z. B. für Deutsch **-Duser.country=DE -Duser.language=de**).
+Genau wie beschrieben, ist die Anwendung in zwei Seiten aufgeteilt. Erste schlägt vor, einen Namen und ein Geburtsdatum einzutragen, die andere zeigt den Glückwunschtext. Zusätzlich wurde bei der Eingabe eine Validierung (im Falle der Name mithilfe RegExp) implementiert, wenn die Anforderungen nicht erfüllt werden, dann wird der Rahmen von Eingabefeld rot und auf der zweiten Seite wird auch kein Ergebnis angezeigt, sondern Fehlermeldung mit Hinweis. Genaue Anforderungen findet man im Tooltip. Die Anwendung ist dreisprachig (Englisch, Deutsch, Ukrainisch), dafür wurden entsprechende Resource bundels erstellt (um eine konkrete Sprache zu testen, nutzen Sie bitte VM-Optionen, z. B. für Deutsch **-Duser.country=DE -Duser.language=de**).
 
 ### Verwendete Technologien:
 Java FX, JDK 17, JUnit, Mockito, SLF4J, logback, Gson
