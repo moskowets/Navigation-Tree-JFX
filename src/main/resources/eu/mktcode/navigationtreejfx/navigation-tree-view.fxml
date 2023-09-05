@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import eu.mktcode.navigationtreejfx.view.ValidatedTextField?>
+<?import eu.mktcode.navigationtreejfx.view.ValidatedDatePicker?>
+<SplitPane dividerPositions="0.3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="240" minWidth="320" prefHeight="480" prefWidth="1024" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eu.mktcode.navigationtreejfx.controller.NavigationTreeController">
+    <items>
+    <AnchorPane minHeight="0.0" minWidth="200">
+         <children>
+            <ListView fx:id="menuPanel" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+    </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="400.0">
+         <children>
+            <Group fx:id="dataInputPanel" visible="false">
+               <children>
+                  <ValidatedTextField fx:id="inputName" layoutX="110.0" layoutY="40.0" promptText="%inputNamePromptText" />
+                  <Label fx:id="dateLabelText" layoutX="40.0" layoutY="75.0" text="%dateLabelText" />
+                  <Label fx:id="nameLabelText" layoutX="40.0" layoutY="40.0" text="%nameLabelText" />
+                  <ValidatedDatePicker fx:id="inputDate" layoutX="110.0" layoutY="75.0" prefHeight="25.0" prefWidth="220.0" promptText="%inputDatePromptText" />
+               </children>
+            </Group>
+            <Group fx:id="resultPanel" visible="false">
+               <children>
+                  <Label fx:id="resultText" layoutX="40.0" layoutY="40.0" text="%resultTextForWrongInputData" />
+               </children>
+            </Group>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
